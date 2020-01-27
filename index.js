@@ -284,10 +284,14 @@ function getGermanCars(inventory) {
  * }
 */
 const sum = (a, b) => {
-  
+  return a+b;
 };
-const addFive = null; 
-const argTimesTwo = null;
+const addFive = (num) => {
+  return num + 5;
+}; 
+const argTimesTwo = (num) => {
+  return num * 2;
+};
 
 /**
  * ### Challenge `carMaker`
